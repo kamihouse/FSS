@@ -1,0 +1,52 @@
+body {
+	background-color: #cbcbcb;
+}
+#wrapper {
+	position: absolute;
+	width: 621px;
+	height: 306px;
+	top: 50%;
+	left: 50%;
+	margin-top: -153px;
+	margin-left: -310px;
+	background-image: url(../imagens/window.jpg);
+}
+.browserButton {
+	display: block;
+	position: absolute;
+	width: 196px;
+	height: 47px;
+	left: 380px;
+	background-image: url(../imagens/browserButtons.png);
+	overflow: hidden;
+}
+#firefoxButton {
+	top: 50px;
+	background-position: 0px -141px;
+}
+#firefoxButton:hover {
+	background-position: 0px -188px;
+}
+#firefoxButton:active {
+	background-position: 0px -235px;
+}
+#safariButton {
+	top: 130px;
+	background-position: 0px -282px;
+}
+#safariButton:hover {
+	background-position: 0px -329px;
+}
+#safariButton:active {
+	background-position: 0px -376px;
+}
+#chromeButton {
+	top: 210px;
+	background-position: 0px -423px;
+}
+#chromeButton:hover {
+	background-position: 0px -470px;
+}
+#chromeButton:active {
+	background-position: 0px -517px;
+}
